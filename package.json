@@ -1,0 +1,31 @@
+{
+    "name": "semanajsexpert-spotify-template",
+    "version": "1.0.0",
+    "description": "Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server/index.js",
+        "live-reload": "nodemon server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "17"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WesleyVitor/semanajsexpert-spotify-template.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/WesleyVitor/semanajsexpert-spotify-template/issues"
+    },
+    "homepage": "https://github.com/WesleyVitor/semanajsexpert-spotify-template#readme",
+    "dependencies": {
+        "nodemon": "^2.0.15",
+        "pino": "^7.9.1",
+        "pino-pretty": "^7.5.4"
+    }
+}

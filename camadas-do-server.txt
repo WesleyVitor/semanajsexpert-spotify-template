@@ -1,0 +1,7 @@
+server
+    service - todo processamento
+    controller - intermédio entre regra de negócio(Service) e rotas
+    rotas - camada de apresentação
+    server - cria o servidor mas não instancia
+    index - instanciar o servidor
+    config - path para os arquivos estáticos
